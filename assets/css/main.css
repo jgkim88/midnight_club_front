@@ -1637,7 +1637,7 @@ input, select, textarea {
 					width: 75%;
 				}
 
-				.row > .off-9-xsmall {
+`				.row > .off-9-xsmall {
 					margin-left: 75%;
 				}
 
@@ -2382,13 +2382,17 @@ input, select, textarea {
 		display: flex;
 		cursor: default;
 		list-style: none;
-		margin-left: -1em;
+		/*margin-left: -1em;*/
+		margin-left: auto;
+		margin-right: auto;
+		width: 400px;
 		padding-left: 0;
 	}
 
 		ul.actions li {
 			padding: 0 0 0 1em;
 			vertical-align: middle;
+			horizontal-align: middle;
 		}
 
 		ul.actions.special {
@@ -3356,9 +3360,11 @@ input, select, textarea {
 /* Sidebar */
 
 	#sidebar {
-		margin-right: 3em;
-		min-width: 22em;
-		width: 22em;
+		/*margin-right: 3em;*/
+		margin-right: auto;
+		margin-left: auto;
+		min-width: 70em;
+		width: 70em;
 	}
 
 		#sidebar > * {
@@ -3371,6 +3377,7 @@ input, select, textarea {
 			border-top: 0;
 			margin-top: 0;
 			padding-top: 0;
+			text-align: center;
 		}
 
 		@media screen and (max-width: 1280px) {
